@@ -1,0 +1,38 @@
+{
+  "app_name": "Loader",
+  "package_name": "cz-files",
+  "bin_name": "cz-files",
+  "version": "1.0.0",
+  "description": "Receive files over FTP or a browser and install deb packages",
+  "store": {
+    "summary": "FTP/web file drop and on-device .deb installer",
+    "description": "Browse the Cardputer Zero filesystem, receive files over FTP or a browser, and install .deb packages from the on-device file list.",
+    "icon": "assets/icon.png",
+    "screenshots": [
+      "assets/screenshots/browse.png",
+      "assets/screenshots/selected.png",
+      "assets/screenshots/net.png",
+      "assets/screenshots/confirm.png",
+      "assets/screenshots/log.png",
+      "assets/screenshots/arch.png"
+    ],
+    "categories": [
+      "System Tools"
+    ],
+    "permissions": {
+      "camera": false,
+      "microphone": false,
+      "imu": false,
+      "network": true,
+      "additional_hardware": false,
+      "background_service": false,
+      "external_display": false
+    },
+    "author": {
+      "display_name": "Play2BReal",
+      "github": "Play2BReal"
+    },
+    "license": "MIT",
+    "share_code": "LOAD"
+  }
+}
